@@ -1,0 +1,20 @@
+{
+    "name": "vendor/contacts",
+    "description": "Description of project Contacts.",
+    "authors": [
+        {
+            "name": "alfre",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "filp/whoops": "dev-master"
+    },
+    "autoload" : {
+        "psr-4":{
+            "App\\" : "app/",
+            "System\\" : "app/system/"
+        }
+    }
+    
+}
